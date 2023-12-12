@@ -1,0 +1,49 @@
+.countdown {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 25px;
+}
+
+.time-elem {
+    position: relative;
+    margin-right: 25px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: #b8cfda;
+    font-size: 26px;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.time-elem>span {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.caption {
+    display: flex;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    align-items: center;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.caption-jarak {
+    text-align: center;
+    box-sizing: border-box;
+    width: calc(100% / 4);
+}
+
+.keterangan {
+    font-size: 12px;
+    color: #98a6ad;
+    font-weight: 700;
+    text-align: center;
+    text-overflow: ellipsis;
+}
